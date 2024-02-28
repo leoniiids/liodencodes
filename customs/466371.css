@@ -1,0 +1,551 @@
+@charset "UTF-8";
+/*This CSS theme was done with the help of Katie's (#106445) CSS template, and is for #466371's usage ONLY.
+The Lioden user #466371 agrees to not to remove any items from resource credits.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Uncial+Antiqua&display=swap');
+body {
+	background: url('https://images5.alphacoders.com/113/1132389.jpg') center center fixed;
+	background-size: 100%;
+	font-family: 'Inknut Antiqua';
+	color: #ffffff
+}
+div.center.b  {
+	color: #ffffff !important;
+}
+.container.main {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+.col-md-9 {
+	background: none;
+}
+.topbar {
+    margin-top: 10px;
+	background: rgba(77,106,145,0.55);
+	color: rgba(23,25,26,0.91);
+    font-size: 12px;
+	border-radius: 10px;
+    margin-top: 8px;
+}
+.navbar li a:hover {
+	background: rgba(1, 1, 1, 0.5) !important;
+	border-bottom: none;
+	color: #ffffff !important;
+	border-radius: 5px
+}
+.navbar {
+	background-color: rgba(36,51,101,0.73);
+	border-radius: 10px;
+    border-bottom: none;
+}
+.navbar li a {
+	color: #ffffff !important
+}
+.breadcrumb {
+	background: rgba(0,0,0,0.5) !important;
+        border: none;
+	border-radius: 10px;
+}
+.breadcrumb .active {
+	color: rgb(120,164,223);
+}
+.breadcrumb::after {
+        content: "CSS theme by#388963/#171346";
+        color: rgba(255,255,255,0.57);
+        position: absolute;
+        right: 15%;
+        z-index: 100     
+    }
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+input.floatright {
+	background: rgba(36,51,101,0.73) !important;
+    border: none !important;
+	border-radius: 10px;
+	color: rgba(255,255,255,0.86) !important;    
+    margin-top: 4px;
+}
+    
+input.floatright:hover {
+	background: rgba(0,0,0,0.73) !important;
+    border: none !important;
+	border-radius: 10px;
+	color: rgba(255,255,255,0.86) !important;    
+    margin-top: 4px;
+}
+button.button {
+	background: rgba(36,51,101,0.73);
+        border: none !important;
+	border-radius: 10px;
+        text-shadow: none !important;
+	color: rgba(255,255,255,0.86) !important
+}
+button.button:hover {
+	background: rgba(0,0,0,0.73);
+        border: none !important;
+	border-radius: 10px;
+        text-shadow: none !important;
+	color: rgba(255,255,255,0.86) !important
+}
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: rgba(77,106,145,0.55) !important;
+	border: none;
+	color: #ffffff;
+    font-size: 12px;
+	border-radius: 10px !important
+}
+h1 {
+	color: #ffffff;
+	font-size: 80px;
+	text-align: center;
+        font-family: 'Uncial Antiqua';
+}
+h2 {
+	color: #ffffff;
+	font-size: 24px;
+	text-align: center
+}
+h3 {
+	color: #ffffff !important;
+	font-size: 14px !important
+}
+.sidebar h3 {
+	color: #ffffff !important;
+        font-size: 20px !important;
+        font-family: 'Inknut Antiqua'
+}
+.panel {
+	background: rgba(1, 1, 1, 0.5) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #ffffff !important;
+	border-radius: 10px
+}
+
+.progress {
+	background: rgba(1, 1, 1, 0.5);
+	color: #ffffff !important;
+	border-radius: 5px !important
+}
+.progress-bar {
+	background: rgba(84,146,207,0.57);
+	color: #ffffff !important;
+	border-radius: 5px !important
+}
+.progress div {
+	color: #ffffff !important
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #000000 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+.table {
+	background: rgba(1, 1, 1, 0.5);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 10px
+}
+.top,
+.bottom,
+th {
+	background: rgba(36,51,101,0.73) !important;
+	color: #ffffff !important;
+	border-radius: 10px
+}
+td.bottom a {
+        text-decoration: none !important
+}
+.inner-table .left {
+	background: rgba(77,106,145,0.55) !important;
+        color: #ffffff;
+	border-radius: 10px
+}
+.inner-table .right {
+	background: none;
+	border-radius: 10px !important
+}
+td.right {
+	border-radius: 10px !important
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+.cave-grid,
+.mound-grid {
+	background: rgba(77,106,145,0.55);
+	border: none !important;
+	border-radius: 10px !important
+}
+.feature,
+div.left {
+	background: rgba(77,106,145,0.55);
+	border: none;
+	border-radius: 10px !important
+}
+.table .left {
+	background: rgba(1, 1, 1, 0.5);
+        border-radius: 10px
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: rgba(255,255,255,0.5) !important;
+	border: none !important;
+	border-radius: 10px !important;
+	color: #000000 !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+.item-header {
+	background: rgba(36,51,101,0.73) !important;
+	color: #ffffff  !important;
+	border-radius: 10px !important;
+}
+
+.item {
+	background: rgba(1, 1, 1, 0.5) !important;
+	border: none !important;
+	border-radius: 10px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #000000 !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #000000 !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #ffffff !important;
+        text-shadow: none !important;
+        font-size: 10px;
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #ffffff !important
+}
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #c4d4e1 !important
+}
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+
+/* BOXES */
+
+.smallbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	height: 150px;
+	width: 28.4%;
+	overflow: auto
+}
+
+.mediumbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	height: 150px;
+	width: 43.8%;
+	overflow: auto
+}
+
+.largebox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto
+}
+
+/* HOVER BOXES */
+
+.smallhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	height: 50px;
+	width: 28.4%;
+	overflow: auto;
+        transition: 3s
+}
+
+.smallhoverbox:hover {
+	height: 150px;
+	width: 28.4%;
+}
+
+.mediumhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	height: 50px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 3s
+}
+
+.mediumhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+.largehoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto;
+        transition: 3s
+}
+
+.largehoverbox:hover {
+	height: 150px;
+	width: 90%;
+}
+
+/* SCROLL BAR */
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+/* BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #ffffff
+}
+
+
+/* "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+	border-radius: 10px
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 1
+}
+
+table#player img {
+	opacity: 1
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 5% !important;
+	overflow: hidden;
+	margin-top: 25px; 
+	margin-left: 12px;
+}
+
+table#player img {
+	border-radius: 10% !important;
+	overflow: hidden
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/67d59603-0a59-450f-ba6d-e3b3e606d76f/d3jp7hf-0664de4f-6cb0-4493-b8fd-98f26181d61d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi82N2Q1OTYwMy0wYTU5LTQ1MGYtYmE2ZC1lM2IzZTYwNmQ3NmYvZDNqcDdoZi0wNjY0ZGU0Zi02Y2IwLTQ0OTMtYjhmZC05OGYyNjE4MWQ2MWQuZ2lmIn1dXX0.CP5SACBjUX-CBnTvA3Ec3Qt-Ft0yWWSByozkq-S6Zog');
+    width: 110px;
+}
+
+/* CAVE / MOUND IMAGES */
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('IMAGE URL') !important
+}
+
+a[href$="CAVE ID"]>div.cave-grid>img {
+	content: url('IMAGE URL') !important
+}
+
+a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('IMAGE URL') !important
+}
+
+a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
+	content: url('IMAGE URL') !important
+}
+
+.mound-grid img /* Mound(s) */ {
+	background: url("IMAGE URL");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+}
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+* 
+{cursor: url(https://cur.cursors-4u.net/others/oth-3/oth244.cur), auto !important
+}
+div#commentBox, div#makeComment, div#commentErrors {
+    border: none;
+    border-radius: 10px;
+    background:rgba(0,0,0,0.6)none!important;
+    font-size: 13px;
+	color: #ffffff !important;
+}
+img.floatleft.commentTag.clear {
+        border-radius: 5px !important;
+        border: none !important;
+}
+div.comment:nth-child(even) {
+        background: rgba(77,106,145,0.55) !important; 
+	color: #ffffff !important;
+}
+div.comment:nth-child(odd) {
+        background: rgba(36,51,101,0.73) !important; 
+	    color: #ffffff !important;
+ }  
+input#comment {
+        background: rgba(0,0,0,0.6) !important; 
+	 color: #ffffff !important;
+        border: none !important;
+}
+input#postComment {
+        background: rgba(36,51,101,0.73)!important; 
+	color: #ffffff !important;
+        border: none !important;
+}
+div#commentErrors {
+        background: rgba(77,106,145,0.55) !important; 
+	color: #ffffff !important;
+        border: none !important;
+}
+small.text-muted{
+	color: rgb(120,164,223);!important;
+}
+.feature {
+      background:rgba(77,106,145,0.55)  !important;
+      color: #ffffff !important;
+    }
+.feature.auto.center {
+      height: auto;
+}
+
