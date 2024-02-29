@@ -78,8 +78,7 @@ input.floatright {
 	border-radius: 10px;
 	color: rgba(255,255,255,0.86) !important;    
     margin-top: 4px;
-}
-    
+} 
 input.floatright:hover {
 	background: rgba(0,0,0,0.73) !important;
     border: none !important;
@@ -101,8 +100,6 @@ button.button:hover {
         text-shadow: none !important;
 	color: rgba(255,255,255,0.86) !important
 }
-/* ALERTS (ie. "Your lionesses have returned from hunting!") */
-
 .alert,
 .alert-warning,
 .alert-danger {
@@ -116,7 +113,8 @@ h1 {
 	color: #ffffff;
 	font-size: 80px;
 	text-align: center;
-        font-family: 'Uncial Antiqua';
+    font-family: 'Uncial Antiqua';
+    text-shadow: 0 0 12px rgba(255,255,255,0.78)
 }
 h2 {
 	color: #ffffff;
@@ -125,12 +123,13 @@ h2 {
 }
 h3 {
 	color: #ffffff !important;
-	font-size: 14px !important
+	font-size: 14px !important;  
 }
 .sidebar h3 {
 	color: #ffffff !important;
-        font-size: 20px !important;
-        font-family: 'Inknut Antiqua'
+    font-size: 20px !important;
+    font-family: 'Uncial Antiqua'!important;
+    text-shadow: 0 0 12px rgba(255,255,255,0.78);
 }
 .panel {
 	background: rgba(1, 1, 1, 0.5) !important;
@@ -139,7 +138,6 @@ h3 {
 	color: #ffffff !important;
 	border-radius: 10px
 }
-
 .progress {
 	background: rgba(1, 1, 1, 0.5);
 	color: #ffffff !important;
@@ -236,8 +234,7 @@ div.left {
 	background: rgba(1, 1, 1, 0.5);
         border-radius: 10px
 }
-
-/* Color behind the content of the elements listed above */
+/*END CHAT*/
 
 input,
 select,
@@ -249,13 +246,11 @@ textarea {
 	box-shadow: none !important;
 	text-shadow: none !important
 }
-
 .item-header {
 	background: rgba(36,51,101,0.73) !important;
 	color: #ffffff  !important;
 	border-radius: 10px !important;
 }
-
 .item {
 	background: rgba(1, 1, 1, 0.5) !important;
 	border: none !important;
@@ -272,7 +267,7 @@ div.slider.round::before /* Circle Part */ {
 	background: #000000 !important
 }
 
-/* Copyright, Terms of Service, CoC, etc. */
+/* END TOGGLE SLIDERRS */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
         color: #ffffff !important;
@@ -280,15 +275,11 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
         font-size: 10px;
 }
 
-/* LINK COLOR */
 
 a:link,
 a:visited {
 	color: #ffffff !important
 }
-
-/* LINK HOVER COLOR */
-
 a:hover {
 	color: #c4d4e1 !important
 }
@@ -341,102 +332,12 @@ a:hover {
 	width: 90%;
 	overflow: auto
 }
-
-/* HOVER BOXES */
-
-.smallhoverbox {
-	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
-	padding: 10px;
-	border: none;
-	border-radius: 10px;
-	margin: 10px;
-	height: 50px;
-	width: 28.4%;
-	overflow: auto;
-        transition: 3s
-}
-
-.smallhoverbox:hover {
-	height: 150px;
-	width: 28.4%;
-}
-
-.mediumhoverbox {
-	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
-	padding: 10px;
-	border: none;
-	border-radius: 10px;
-	margin: 10px;
-	height: 50px;
-	width: 43.8%;
-	overflow: auto;
-        transition: 3s
-}
-
-.mediumhoverbox:hover {
-	height: 150px;
-	width: 43.8%;
-}
-
-.largehoverbox {
-	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
-	padding: 10px;
-	border: none;
-	border-radius: 10px;
-	margin: 10px;
-	height: 150px;
-	width: 90%;
-	overflow: auto;
-        transition: 3s
-}
-
-.largehoverbox:hover {
-	height: 150px;
-	width: 90%;
-}
-
-/* SCROLL BAR */
-
-/* WIDTH */
-
-::-webkit-scrollbar {
-	width: 10px
-}
-
-
-/* BACKGROUND */
-
-::-webkit-scrollbar-track {
-	background: #ffffff
-}
-
-
-/* "THUMB" */
-
-::-webkit-scrollbar-thumb {
-	background: #000000;
-	border-radius: 10px
-}
-
-
-/* LION AND USER AVATAR OPACITY */
-
 div#lion_image {
 	opacity: 1
 }
-
 table#player img {
 	opacity: 1
 }
-
-
-/* CIRCULAR LION AND USER AVATAR */
 
 div#lion_image {
 	border-radius: 5% !important;
@@ -444,18 +345,13 @@ div#lion_image {
 	margin-top: 25px; 
 	margin-left: 12px;
 }
-
 table#player img {
 	border-radius: 10% !important;
 	overflow: hidden
 }
-
-
-/* LIODEN LOGO REPLACER */
-
-div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/67d59603-0a59-450f-ba6d-e3b3e606d76f/d3jp7hf-0664de4f-6cb0-4493-b8fd-98f26181d61d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi82N2Q1OTYwMy0wYTU5LTQ1MGYtYmE2ZC1lM2IzZTYwNmQ3NmYvZDNqcDdoZi0wNjY0ZGU0Zi02Y2IwLTQ0OTMtYjhmZC05OGYyNjE4MWQ2MWQuZ2lmIn1dXX0.CP5SACBjUX-CBnTvA3Ec3Qt-Ft0yWWSByozkq-S6Zog');
-    width: 110px;
+div.container.main>div:nth-child(1)>nav>div.navbar-header> a > img {
+	content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1392f2e3-d214-440d-8a97-65e1d6f5a460/dcl68mu-c987e752-20d6-4f99-adca-4e1a3199f50a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEzOTJmMmUzLWQyMTQtNDQwZC04YTk3LTY1ZTFkNmY1YTQ2MFwvZGNsNjhtdS1jOTg3ZTc1Mi0yMGQ2LTRmOTktYWRjYS00ZTFhMzE5OWY1MGEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0QrCi9ED-9yGiVtccHiR2jcsT47X0DdYEwN2obBt45c');
+    width: 100px;
 }
 
 /* CAVE / MOUND IMAGES */
@@ -548,4 +444,21 @@ small.text-muted{
 .feature.auto.center {
       height: auto;
 }
-
+#player .top::before {
+  content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fb1cc673-1608-44e1-ae22-630cddebb2e3/dbvwp8j-4a55252b-ff14-4a6c-9135-89b3e1e00c72.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZiMWNjNjczLTE2MDgtNDRlMS1hZTIyLTYzMGNkZGViYjJlM1wvZGJ2d3A4ai00YTU1MjUyYi1mZjE0LTRhNmMtOTEzNS04OWIzZTFlMDBjNzIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ntl2i3kSNQiVM551-E2slW5SLFLtLoUkGBgBiIk1p7k');
+  margin-right: 2px;
+}
+.container.main::before {
+  content: 'Wallpaper by Thomas du Crest (Alphacoders). Logo replacer by RariDecor; Cat pixel by Forgandal (DeviantArt).';
+    background: rgba(36,51,101,0.73);
+    border-radius: 10px;
+    font-weight: : 100px;
+    width: 160px;
+  display: block;
+  font-size: 10px;
+  padding: 10px;
+  position: fixed;
+  right: 8px;
+  bottom: 8px;
+  z-index: 5;
+}
