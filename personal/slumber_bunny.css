@@ -1,0 +1,791 @@
+/*
+Free to use CSS template by Katie (#106445), edits by me.
+Hi! It seems you have found this file. I'm leoniiids (#388963/#171346) and I have edited this template ONLY for myself. Please do NOT use! Thank you!
+*/
+
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Dosis');
+
+/* BACKGROUND */
+
+body {
+	background: url('https://64.media.tumblr.com/d249339336e54c5916984cf820ba72c2/tumblr_inline_n258pmUe5i1qhwjx8.png') fixed;
+    background-repeat: repeat;
+	background-size: 40%;
+	font-family: 'Dosis', bold;
+	color: #FFFFFF
+}
+
+
+/*GIFTING EVENT*/
+
+.table .table {
+    background-color: #4a6e87;
+}
+
+.table {
+    background:  rgba(0, 0, 0, 1);
+	background-color:  rgba(0, 0, 0, 1);
+    border: none !important;
+    border-collapse: separate;
+    color: rgba(155, 175, 207, 1) !important;
+}
+
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+    background: rgba(0, 0, 0, 0.1);
+	border: solid;
+	border-width: 1px;
+	border-color: rgba(255, 255, 255, 0.1);
+	box-shadow: none;
+	border-radius: 10px;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: rgba(0, 0, 0, 0);
+    border-right: none;
+    border-radius: 10px;
+}
+
+/* TOPBAR ("Welcome back, ___") */
+
+.topbar {
+	background: rgba(77, 119, 150, 0.6);
+	border: none;
+	border-top: none;
+	color: #FFFFFF;
+	font-size: 15px;
+	border-radius: 10px;
+	font-family: 'Dosis', bold;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background: rgba(125, 156, 181, 0.8);
+	border: double;
+	border-color: rgba (0, 2, 15, 0.8);
+	font-family: 'Dosis', bold;
+    font-size: 20px;
+	color: #314557;
+	border-radius: 10px;
+	
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #FFFFFF !important
+	
+}
+/* SELECT DROPDOWNS */
+select {
+    background: $white;
+    border: 0;
+    color: $black;
+
+    option {
+        color: $black;
+    }
+}
+
+
+
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: rgba(0, 0, 0, 0.6) !important;
+	border-bottom: none;
+	color: #a8a8a8 !important;
+	border-radius: 5px
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(77, 119, 150, 0.6) !important;
+        border: none;
+	
+	border-radius: 10px
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #FFFFFF
+}
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "Template by Katie (#106445), edits by me";
+        color: #FFFFFF;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+/* BOOKMARK BUTTON */
+
+input.floatright, input.floatright:hover {
+	background: rgba(1, 1, 1, 0.6) !important;
+        border: none !important;
+	border-radius: 10px;
+	color: #FFFFFF !important;    
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button, button.button:hover {
+	background: rgba(1, 1, 1, 0.6);
+        border: none !important;
+	border-radius: 10px;
+        text-shadow: none !important;
+	color: #FFFFFF !important
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: rgba(1, 1, 1, 0.6) !important;
+	border: none;
+	color: #FFFFFF;
+	border-radius: 10px !important
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+    color: #FFFFFF;
+	font-size: 45px;
+    font-family: 'Press Start 2P', normal;
+	text-align: center;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #FFFFFF !important;
+	font-size: 14px !important
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #FFFFFF !important;
+        font-size: 26px !important;
+        font-family: 'Dosis', bold
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(77, 119, 150, 0.6) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #FFFFFF !important;
+	border-radius: 10px
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(0, 0, 0, 0.6);
+	color: #FFFFFF !important;
+	border-radius: 5px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(1, 1, 1, 0.6);
+	color: #FFFFFF !important;
+	border-radius: 5px !important
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #FFFFFF !important
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(125, 156, 181, 0.6) !important;
+        color: #FFFFFF !important;
+	border: none !important
+}
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(77, 119, 150, 0.6) !important;
+        color: #FFFFFF !important;
+	border: none !important
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: rgba(125, 156, 181, 0.8) !important;
+        color: #FFFFFF !important;
+	border: none !important
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #FFFFFF !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgba(0, 0, 0, 0.6) !important;
+        color: #FFFFFF !important;
+	border: none !important
+}
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: rgba(1, 1, 1, 0.6);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 10px
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: rgba(125, 156, 181, 1) !important;
+	color: #FFFFFF !important;
+	border-radius: 10px
+}
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+		background: #4a6e87 !important;
+        color: #FFFFFF;
+	border-radius: 10px
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: none;
+	border-radius: 10px !important
+}
+
+td.right {
+	border-radius: 10px !important
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(1, 1, 1, 0.6);
+	border: none !important;
+	border-radius: 10px !important
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(0, 0, 0, 0.6) !important;
+	color: #FFFFFF !important;
+	border: none !important;
+	border-radius: 10px !important;
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(1, 1, 1, 0.6);
+	border: none;
+	border-radius: 10px !important
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+	background: rgba(1, 1, 1, 1);
+        border-radius: 10px
+}
+
+/* Color behind the content of the elements listed above */
+
+input{
+	background: rgba(1, 1, 1, 0.6) !important;
+	border: none !important;
+	border-radius: 10px !important;
+	color: #FFFFFF!important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+select{
+	background: rgba(1, 1, 1, 0.3) !important;
+	border: none !important;
+	border-radius: 10px !important;
+	color: #FFFFFF!important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+textarea {
+	background: rgba(1, 1, 1, 0.6) !important;
+	border: none !important;
+	border-radius: 10px !important;
+	color: #FFFFFF!important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(1, 1, 1, 0.6) !important;
+	color: #FFFFFF  !important;
+	border-radius: 10px !important;
+}
+
+.item {
+	background: rgba(0, 0, 0, 0.6) !important;
+	border: none !important;
+	border-radius: 10px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #000000 !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #FFFFFF !important
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #c7dded !important
+}
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #a8a8a8 !important
+}
+
+
+/* BOX CONTAINER */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+
+.boxcontainer2 {
+    background: none;
+    height: auto;
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+}
+
+.art {
+    background: none;
+    padding: none;
+    border: none;
+    margin: 0px;
+    float: right;
+    height: 300px;
+    width: 650px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    margin-bottom: -42px;
+    margin-right: 10px;
+    pointer-events: none;
+}
+
+/* BOXES */
+
+.smallbox {
+	text-align: left;
+	float: left;
+	background: rgba(1, 1, 1, 0.6);
+	color: #FFFFFF;
+	padding: 20px;
+	padding-right:10 px;
+	border: none;
+	border-radius: 10px;
+	margin: 20px;
+	height: auto;
+	width: 29.7% !important;
+	overflow: auto
+}
+
+
+.titlebox {
+	float: center;
+	background: rgba(1, 1, 1, 0.6);
+	color: #FFFFFF;
+	padding: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    height: auto;
+    width: 550px;
+    overflow: auto;
+}
+
+.noticesbox {
+	text-align: left;
+	float: center;
+	background: rgba(250, 218, 60, 0.4);
+	color: #FFFFFF;
+	padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    height: auto;
+    width: 100%;
+    overflow: auto;
+}
+
+
+.creditbox{
+	float: center;
+	background: rgba(1, 1, 1, 0.6);
+	color: #FFFFFF;
+	padding: 10px;
+	border: none;
+	font-size: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	height: auto;
+	width: 550px;
+	overflow: auto
+}
+
+/* HOVER BOXES */
+
+.smallhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	height: auto;
+	width: 39%;
+	overflow: auto;
+        transition: 3s
+}
+
+.smallhoverbox:hover {
+	height: auto;
+	width: 28.4%;
+}
+
+.mediumhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	height: 50px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 3s
+}
+
+.mediumhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+.largehoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto;
+        transition: 3s
+}
+
+.largehoverbox:hover {
+	height: 150px;
+	width: 90%;
+}
+
+/* SCROLL BAR */
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+/* BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #b5d3eb
+}
+
+
+/* "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+	border-radius: 10px
+}
+
+
+/* LION AND USER AVATAR */
+
+#lion_image {
+        position: relative; 
+
+        &::before {
+            content: '';
+            background-color: $green;
+            height: 50px;
+            width: 50px;
+            position: absolute;        }
+
+        &::after {
+            content: '';
+            background-color: $blue;
+            border: 2px dashed $white;
+            border-radius: 50%;
+            @include stitchBorder($blue);
+            height: 75px;
+            width: 75px;
+
+            position: absolute;
+            bottom: -0.25rem;
+            right: -0.25rem;
+            z-index: -1;
+        }
+    }
+
+
+table#player img {
+	opacity: 1
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-style: double;
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+table#player img {
+	border-style: double;
+	border-radius: 10% !important;
+	overflow: hidden
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1640914-fa70-4400-9b7c-c4c5528c57db/dcdpotn-674107c5-d304-42ea-b159-9ef15d261614.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QxNjQwOTE0LWZhNzAtNDQwMC05YjdjLWM0YzU1MjhjNTdkYlwvZGNkcG90bi02NzQxMDdjNS1kMzA0LTQyZWEtYjE1OS05ZWYxNWQyNjE2MTQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BFwsCr5XUCYrN9RX9Qbh_RAalgxg81ipf1xh2yIzUdA');
+    margin-top: -40px;
+	margin-bottom: 0px;
+}
+
+
+/* COMMENTS BOX */
+
+
+ div#commentErrors {
+        border-radius: 10px !important;
+        background: rgba(0, 0, 0, 0.6) !important; 
+	color: #FFFFFF !important;
+        border: none !important;
+	margin: 10px !important;
+
+}
+
+ div#makeComment {
+        border-radius: 10px !important;
+        background: rgba(0, 0, 0, 0) !important; 
+	color: #FFFFFF !important;
+        border: none !important;
+	margin: 10px !important;
+
+}
+
+div#commentBox {
+        border-radius: 10px !important;
+        background: rgba(0, 0, 0, 0.1) !important; 
+	color: #FFFFFF !important;
+        border: none !important;
+	margin: 10px !important;
+
+}
+
+img.floatleft.commentTag.clear {
+        border-radius: 5px !important;
+        border: none !important;
+}
+
+div.comment:nth-child(even) {
+        background: rgba(125, 156, 181, 0.6) !important; 
+	color: #FFFFFF !important;
+        border-bottom: none !important;
+}
+
+div.comment:nth-child(odd) {
+        background: rgba(77, 119, 150, 0.6)!important; 
+	color: #FFFFFF !important;
+        border-bottom: none !important;
+}
+
+input#comment {
+        background: rgba(1, 1, 1, 0.6) !important; 
+	color: #FFFFFF !important;
+        border: none !important;
+}
+
+input#postComment {
+        background: rgba(0, 0, 0, 0.6) !important; 
+	color: #FFFFFF !important;
+        border: none !important;
+}
+
+div#commentErrors {
+        background: rgba(1, 1, 1, 0.6) !important; 
+	color: #FFFFFF !important;
+        border: none !important;
+}
+
+small.text-muted {
+	color: #FFFFFF !important;
+}
+
+
+/* CAVE IMAGES ON DEN */
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('url') !important
+}
+
+a[href$="313255"]>div.cave-grid>img {
+	content: url('IMG') !important
+}
+a[href$="313199"]>div.cave-grid>img {
+	content: url('IMG') !important
+}
+a[href$="313254"]>div.cave-grid>img {
+	content: url('IMG') !important
+}
+
+a[href$="lionoverview.php?id=388963"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('img') !important
+}
+
+a[href$="unsorted.php?id=388963"]>div.cave-grid>img /* Unsorted */ {
+	content: url('img') !important
+}
+
+
+/* Remove mobile divider above CHAT*/
+
+div.clear.visible-xs.visible-sm {
+	border: none !important;
+}
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+}
+	}
+	
+/* Start https://www.cursors-4u.com */ 
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat985.cur), auto !important;} 
+/* End https://www.cursors-4u.com */
