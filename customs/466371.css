@@ -4,10 +4,13 @@ The Lioden user #466371 agrees to not to remove any items from resource credits.
 
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Uncial+Antiqua&display=swap');
 body {
-	background: url('https://images5.alphacoders.com/113/1132389.jpg') center center fixed;
+	background: url('https://images5.alphacoders.com/113/1132389.jpg') center center fixed !important;
 	background-size: 100%;
 	font-family: 'Inknut Antiqua';
-	color: #ffffff
+	color: #ffffff;
+    position: relative;
+    background-size: cover !important;
+    background-repeat: no-repeat;
 }
 div.center.b  {
 	color: #ffffff !important;
@@ -151,38 +154,30 @@ h3 {
 .progress div {
 	color: #ffffff !important
 }
-
-/* CHAT */
-
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: rgba(77,106,145,0.55) !important; 
+	color: #ffffff !important;
 	border: none !important
 }
-
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: rgba(36,51,101,0.73) !important; 
+	color: #ffffff !important;
 	border: none !important
 }
-
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: rgba(77,106,145,0.55) !important; 
+	color: #ffffff !important;
 	border: none !important
 }
-
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #ffffff !important;
 }
-
 div#chatMessageContainer {
 	border: none !important;
 }
-
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background:  rgba(36,51,101,0.73) !important;
+        color: #ffffff !important;
 	border: none !important
 }
 .table {
@@ -213,8 +208,6 @@ td.bottom a {
 td.right {
 	border-radius: 10px !important
 }
-
-/* IGNORE */
 .right_odd {
 	background: none !important
 }
@@ -234,8 +227,6 @@ div.left {
 	background: rgba(1, 1, 1, 0.5);
         border-radius: 10px
 }
-/*END CHAT*/
-
 input,
 select,
 textarea {
@@ -256,26 +247,17 @@ textarea {
 	border: none !important;
 	border-radius: 10px !important
 }
-
-/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
-
 div.slider.round /* Background */ {
 	background: #000000 !important
 }
-
 div.slider.round::before /* Circle Part */ {
 	background: #000000 !important
 }
-
-/* END TOGGLE SLIDERRS */
-
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
         color: #ffffff !important;
         text-shadow: none !important;
         font-size: 10px;
 }
-
-
 a:link,
 a:visited {
 	color: #ffffff !important
@@ -283,7 +265,6 @@ a:visited {
 a:hover {
 	color: #c4d4e1 !important
 }
-
 .boxcontainer {
 	background: none;
 	height: auto;
@@ -292,53 +273,13 @@ a:hover {
 	display: flex
 }
 
-/* BOXES */
 
-.smallbox {
-	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
-	padding: 10px;
-	border: none;
-	border-radius: 10px;
-	margin: 10px;
-	height: 150px;
-	width: 28.4%;
-	overflow: auto
-}
-
-.mediumbox {
-	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
-	padding: 10px;
-	border: none;
-	border-radius: 10px;
-	margin: 10px;
-	height: 150px;
-	width: 43.8%;
-	overflow: auto
-}
-
-.largebox {
-	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
-	padding: 10px;
-	border: none;
-	border-radius: 10px;
-	margin: 10px;
-	height: 150px;
-	width: 90%;
-	overflow: auto
-}
 div#lion_image {
 	opacity: 1
 }
 table#player img {
 	opacity: 1
 }
-
 div#lion_image {
 	border-radius: 5% !important;
 	overflow: hidden;
@@ -373,10 +314,10 @@ a[href$="unsorted.php?id=466371"]>div.cave-grid>img {
 	content: url('https://images.pexels.com/photos/1252873/pexels-photo-1252873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') !important
 }
 
-.mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
-	width: 0;
-	height: 0;
+.mound-grid img {
+	background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1d325bf3-a338-4df6-9d54-5d40be154753/dg0kkyt-0584f322-96c8-42f2-af4b-47824ebbfe5e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFkMzI1YmYzLWEzMzgtNGRmNi05ZDU0LTVkNDBiZTE1NDc1M1wvZGcwa2t5dC0wNTg0ZjMyMi05NmM4LTQyZjItYWY0Yi00NzgyNGViYmZlNWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NQMJIF9Y6v3aFt4Ew4FhS6LAZMtVoZz0XR9q-dKMmBk") no-repeat;
+	background-size: 50%;
+    background-position: center;
 	padding-top: 80px;
 	padding-right: 130px
 }
@@ -388,7 +329,6 @@ a[href$="unsorted.php?id=466371"]>div.cave-grid>img {
             display: block !important;
         }
 }
-
 @media only screen and (max-width: 991px) and (min-width: 768px) {
 	display: block !important;
 }
@@ -436,7 +376,7 @@ div#commentErrors {
         border: none !important;
 }
 small.text-muted{
-	color: rgb(120,164,223);!important;
+	color: rgb(120,164,223); !important;
 }
 .feature {
       background:rgba(77,106,145,0.55)  !important;
@@ -450,16 +390,56 @@ small.text-muted{
   margin-right: 2px;
 }
 .container.main::before {
-  content: 'Wallpaper by Thomas du Crest (Alphacoders). Cave image replacers by Hristo Fidanov (Pexels). Logo replacer by RariDecor; Cat pixel by Forgandal (DeviantArt).';
+  content: 'Wallpaper by Thomas du Crest (Alphacoders). Caves and mounds image replacers by Hristo Fidanov (Pexels). Logo replacer by RariDecor; pixels by Forgandal (DeviantArt). Cursor by cursors 4u.';
     background: rgba(36,51,101,0.73);
     border-radius: 10px;
-    font-weight: : 100px;
+    font-weight: 100px;
     width: 160px;
-  display: block;
-  font-size: 10px;
-  padding: 10px;
-  position: fixed;
-  right: 8px;
-  bottom: 8px;
-  z-index: 5;
+   display: block;
+   font-size: 10px;
+   padding: 10px;
+   position: fixed;
+   right: 8px;
+   bottom: 8px;
+   z-index: 5;
+}
+
+/* BOXES */
+
+.smallbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 28.4%;
+	overflow: auto
+}
+
+.mediumbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 43.8%;
+	overflow: auto
+}
+.largebox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto
 }
