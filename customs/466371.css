@@ -405,41 +405,15 @@ small.text-muted{
 }
 
 /* BOXES */
-
-.smallbox {
-	float: left;
+.titlebox {
+	float: center;
 	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
-	padding: 10px;
-	border: none;
-	border-radius: 0px;
-	margin: 10px;
-	height: 150px;
-	width: 28.4%;
-	overflow: auto
-}
-
-.mediumbox {
-	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
-	padding: 10px;
-	border: none;
-	border-radius: 0px;
-	margin: 10px;
-	height: 150px;
-	width: 43.8%;
-	overflow: auto
-}
-.largebox {
-	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
-	padding: 10px;
-	border: none;
-	border-radius: 0px;
-	margin: 10px;
-	height: 150px;
-	width: 90%;
-	overflow: auto
+	color: #FFFFFF;
+	padding: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    height: auto;
+    width: 550px;
+    overflow: auto;
 }
